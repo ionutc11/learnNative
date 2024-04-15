@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "bareMinimumExpo",
+    "slug": "bareMinimumExpo",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

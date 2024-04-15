@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "ExpoNotifications",
+    "slug": "pushnotifications",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./local/assets/icon.png",
+          "color": "#ffff"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c407aff0-3858-49b2-b478-9c2f7edbf072"
+      }
+    },
+    "owner": "ionutc11"
+  }
+}
